@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-16 16:55:24 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E3 E0 E1 E2"/>
+    <route id="r_1" edges="E0 E1 E2 E3"/>
+    <route id="r_2" edges="E1 E2 E3 E0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vType id="type1" length="5" maxSpeed="13" carFollowModel="Krauss" accel="5.6" decel="4.5" sigma="0.5"/>
+    <vType id="type2" length="7" maxSpeed="23" carFollowModel="Krauss" accel="8.6" decel="4.5" sigma="0.5"/>
+    <vType id="rescue" vClass="emergency" speedFactor="1.5">
+        <param key="has.bluelight.device" value="true"/>
+    </vType>
+    <vehicle id="1" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="2" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="3" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="4" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="5" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="6" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="7" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="8" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="9" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="10" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="11" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="12" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="13" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="14" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="15" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="16" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="17" type="type1" depart="0.00" departLane="1" route="r_0"/>
+    <vehicle id="0" type="rescue" depart="0.00" color="red" route="r_0"/>
+    <vehicle id="18" type="type1" depart="0.00" route="r_0"/>
+    <vehicle id="19" type="type1" depart="0.00" route="r_0"/>
+</routes>
